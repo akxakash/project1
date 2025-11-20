@@ -1,38 +1,102 @@
+
+@font-face {
+    font-family:kk;
+    src: url(./font/SFPRODISPLAYREGULAR.OTF);
+}
+
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: kk;
 }
 html,body{
     height: 100%;
     width: 100%;
 }
 
-@font-face {
-    font-family:hey;
-    src: url(./Lovalina\ Regular.otf);
-}
-#box{
-    text-align: center;
-    height:100%;
+#nav{
+    position: fixed;
     width: 100%;
-    background-image: url(./sergey-koznov-gq7OvZDDhs8-unsplash.jpg);
+    height: 60px;
+    background-color: rgb(24,24,24);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+#nav h4{
+    color: white; 
+    font-size: 16px;
+    font-weight: 100;
+}
+
+#center{
+    width: 100%;
+    height: 80%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-17-pro/hero_iphone_17_pro__bknyzxfk2agi_largetall.jpg);
     background-size: cover;
     background-position: center;
+    text-align: center;
+    color: white;
+    padding: 65px;
+    
+
 }
 
-#h1{font-size: 100px;
-    padding: 30px;
-    font-family: hey;
-    color: rgb(158,82,84);
-    font-weight: 900;
+#center h1{
+    font-size: 50px;
+    padding: 40px;
+}
+#center h3{
+    margin-top: -30px;
+    font-size: 30px;
+    font-weight: 100;
+}
 
+#link{
+    padding: 6px;
 }
 button{
-    margin-top: -10px;
-    padding: 15px;
-    font-size: 20px;
-    background-color: transparent;
-    border: 2px solid black;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 13px 27px;
+    margin: 13px;
+    background-color: royalblue;
+    color: white;
+    border: none;
     border-radius: 50px;
+}
+
+#center2{
+    width: 100%;
+    height: 75%;
+    background-image: url(https://www.apple.com/v/home/ci/images/heroes/iphone-air/hero_iphone_air__0gxyavihpiqu_large.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    color: black;
+    text-align: center;
+    padding:80px;
+}
+#center2 h1{
+    font-size:60px;
+    padding: 10px;
+}
+#center2 h3{
+    font-size: 26px;
+    padding: 1px;
+    font-weight: 500;
+}
+
+#link2{
+    padding: 6px;
+}
+
+#center3{
+    margin-top: 10px;
+    width: 100%;
+    height: 75%;
+    background-color: rgb(173,220,238);
 }
